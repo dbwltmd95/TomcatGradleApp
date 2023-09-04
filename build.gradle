@@ -15,15 +15,6 @@ dependencies {
   implementation 'com.google.guava:guava:29.0-jre'
 }
 
-#jar {
-#    enabled = false
-#}
-
-#java {
-#	withSourcesJar()
-#	withJavadocJar()
-#}
-
 publishing {
     publications {
         maven(MavenPublication) {
