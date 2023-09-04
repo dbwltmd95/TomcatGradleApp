@@ -28,3 +28,8 @@ wrapper {
     distributionType = Wrapper.DistributionType.ALL
 }
 
+jar {
+    manifest {
+        attributes 'Main-Class': 'Hello'
+    }
+}
