@@ -28,4 +28,6 @@ wrapper {
     distributionType = Wrapper.DistributionType.ALL
 }
 
-
+jar {
+    enabled = false
+}
