@@ -30,6 +30,6 @@ wrapper {
 
 jar {
     manifest {
-        attributes 'Main-Class': 'Hello'
+        attributes 'Main-Class': 'HelloWorldApplication'
     }
 }
