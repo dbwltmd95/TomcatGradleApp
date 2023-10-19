@@ -1,6 +1,9 @@
 apply plugin: 'java'
 apply plugin: 'maven-publish'
 
+//추가
+apply plugin: 'war'
+
 group = 'com.github.jitpack'
 version = '2.0'
 
@@ -28,8 +31,14 @@ wrapper {
     distributionType = Wrapper.DistributionType.ALL
 }
 
+
 jar {
     manifest {
-        attributes 'Main-Class': 'Hello'
+        attributes 'Main-Class': 'hello.HelloWorld'
     }
 }
+
+//war {
+//    baseName = 'Hello'
+//}
+
