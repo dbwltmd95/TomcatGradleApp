@@ -38,7 +38,10 @@ jar {
     }
 }
 
-//war {
-//    baseName = 'Hello'
-//}
-
+war {
+    manifest {
+        attributes(
+            'Main-Class': 'hello.HelloWorld'
+        )
+    }
+}
